@@ -25,7 +25,9 @@ export default function TabLayout() {
           },
           default: {},
         }),
-      }}>
+      }}
+      backBehavior='history'
+      >
       <Tabs.Screen
         name="index"
         options={{
